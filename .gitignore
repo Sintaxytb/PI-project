@@ -1,0 +1,42 @@
+# JetBrains IDEs (PyCharm, IntelliJ)
+.idea/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+.env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Environment variables
+# Never commit .env files containing secrets!
+.env
+.env.*
+!.env.example
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Databases and Logs
+*.sqlite3
+*.db
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db

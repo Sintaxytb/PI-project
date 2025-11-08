@@ -36,7 +36,7 @@ try:
 
 # 4. Handle a clean exit when the user presses Ctrl+C
 except KeyboardInterrupt:
-    print("\nScript terminated by user.")
+    print("Script terminated by user.")
 
 finally:
     print("Cleaning up GPIO...")
