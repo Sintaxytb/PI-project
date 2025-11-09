@@ -76,7 +76,7 @@ cd PI-project
 ### Basic Read Example
 
 ```bash
-python3 read_rfid.py
+python3 main.py
 ```
 
 Place an RFID tag near the reader to see the UID displayed.
